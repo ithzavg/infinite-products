@@ -7,7 +7,7 @@ Infinite products it's a code exercise to show an infinite scroll using intersec
 
 Click in the link below to go and check it out.
 
-➡️  ⬅️
+➡️ [Infinite products](https://priceless-hugle-a04f62.netlify.app/ "Infinite products") ⬅️
 
 
 ## 🍞 Language and tools
