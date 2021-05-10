@@ -58,3 +58,28 @@ body{
 }
 
 
+@media only screen and (max-width: 600px){
+
+    .department__header{
+        grid-template-columns: 41% 85%;
+        font-size: 23px;
+        &-image{
+            width: 118px;
+        }
+    }
+    .article-products{
+        justify-content: center;
+        grid-template-columns:auto;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .department__header{
+        grid-template-columns: 27% 85%;
+    }
+    .article-products{
+        grid-template-columns: 33% 33% 30%;
+    }
+}
