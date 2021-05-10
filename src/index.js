@@ -4,7 +4,7 @@ import data from "./data/data.json";
 
 let containerArt = document.getElementById('product-container');
 
-function article(start, end){
+export function article(start, end){
     const view = `
         <div class="article-products">
         ${
@@ -30,7 +30,7 @@ let end = 5;
 
 
 
-function loadElements(start, end){
+export function loadElements(start, end){
     for(let i=0; i<3; i++){
         containerArt.innerHTML += article(start, end);
     
